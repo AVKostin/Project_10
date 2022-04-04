@@ -1,0 +1,47 @@
+<div class="column main">  <div class="page-title-wrapper"><h1 class="page-title"><span class="base" data-ui-id="page-title-wrapper">Edit Account Information</span></h1>  <div class="become-seller-button "> <a href="https://tera03.digitalmara.com/marketplace/account/becomeseller/">Become a Seller</a> </div> </div><input name="form_key" type="hidden" value="dIwOS3HlkzGhYDE6"> <div id="authenticationPopup" data-bind="scope:'authenticationPopup', style: {display: 'none'}" style="display: none;">  <!-- ko template: getTemplate() -->
+
+
+<!-- /ko --></div>        <form class="form form-edit-account" action="https://tera03.digitalmara.com/customer/account/editPost/" method="post" id="form-validate" enctype="multipart/form-data" data-hasrequired="* Required Fields" autocomplete="off" novalidate="novalidate"><fieldset class="fieldset info"><input name="form_key" type="hidden" value="dIwOS3HlkzGhYDE6"> <legend class="legend form-title-edit"><span>Profile details</span></legend><br>    <div class="field field-name-firstname required hide"><label class="label" for="firstname"><span>First Name</span></label> <div class="control"><input type="text" id="firstname" name="firstname" placeholder="Enter first name" value="" title="First Name" class="input-text required-entry" data-validate="{required:true}" aria-required="true"></div></div> <div class="field field-name-lastname required hide"><label class="label" for="lastname"><span>Last Name</span></label> <div class="control"><input type="text" id="lastname" name="lastname" placeholder="Enter last name" value="" title="Last Name" class="input-text required-entry" data-validate="{required:true}" aria-required="true"></div></div>        </fieldset> <fieldset style="" class="fieldset admin__fieldset user-defined" id="group-fields-customer-attributes"> <div class="admin__legend step-title"><span>Additional Settings</span></div>  <div class="messages"></div>        <div class="admin__field field field-display_name  required _required" data-ui-id="form-field-display-name"> <label class="label admin__field-label" for="display_name" data-ui-id="text-display-name-label"><span>Display Name</span></label>
+ <div class="admin__field-control control"><input id="display_name" name="display_name" data-ui-id="text-display-name" value="antoff" class="validate-nickname required-entry input-text admin__control-text required-entry _required" type="text" formelementhookid="elemIdIZo6mAVA0C" title="Enter display name" placeholder="Enter display name" aria-required="true"> </div> </div>      <div class="admin__field field field-profile_image " data-ui-id="form-field-profile-image"> <label class="label admin__field-label" for="profile_image" data-ui-id="file-profile-image-label"><span>Profile Picture</span></label>
+ <div class="admin__field-control control"><div class="upload-wrapper" data-bind="scope: 'profile_image'">
+                    <!-- ko template: getTemplate() --><!--
+  ~  Copyright © WebProvise. All rights reserved.
+  ~  See COPYING.txt for license details.
+  -->
+
+<div class="admin__field" data-bind="css: $data.additionalClasses, visible: visible">
+    <!-- ko if: $data.label --><!-- /ko -->
+
+    <div class="admin__field-control" data-bind="css: {'_with-tooltip': $data.tooltip}">
+        <div class="file-uploader" data-role="drop-zone" data-bind="css: {_loading: isLoading}">
+            <div class="file-uploader-area">
+                <input type="hidden" data-bind="attr: {id: uid +'_input' , name: dataScope + '_filename'}, disable: disabled, value: fileName" id="IG5I2FP_input" name="profile_image_filename">
+                <input type="file" data-bind="attr: {id: uid, name: inputName, multiple: isMultipleFiles}, disable: disabled, afterRender: onElementRender" id="IG5I2FP" name="profile_image">
+                <label class="file-uploader-button action-default" data-bind="attr: {for: uid}, i18n: 'Choose a file or drag and drop it here'" for="IG5I2FP">Choose a file or drag and drop it here</label>
+
+                <span class="file-uploader-spinner"></span>
+                <!-- ko if: $data.showFallbackReset && $data.isDifferedFromDefault --><!-- /ko -->
+            </div>
+
+            <!-- ko if: $data.tooltip --><!-- /ko -->
+
+            <!-- ko if: $data.notice --><!-- /ko -->
+
+            <!-- ko if: error --><!-- /ko -->
+
+            <!-- ko foreach: {data: value, as: '$file'} --><!-- /ko -->
+
+            <!-- ko if: isMultipleFiles --><!-- /ko -->
+        </div>
+        <!-- ko if: $data.hasService() --><!-- /ko -->
+    </div>
+</div>
+<!-- /ko -->
+                </div> </div> </div>      <div class="admin__field field field-bio " data-ui-id="form-field-bio"> <label class="label admin__field-label" for="bio" data-ui-id="textarea-bio-label"><span>Bio</span></label>
+ <div class="admin__field-control control"><textarea id="bio" name="bio" class=" textarea admin__control-textarea" rows="2" cols="15" formelementhookid="elemId4sg9jizGxv" data-ui-id="textarea-bio" title="Tell us about yourself..." placeholder="Tell us about yourself..."></textarea> </div> </div>      <div class="admin__field field field-my_interests  required _required" data-ui-id="form-field-my-interests"> <label class="label admin__field-label" for="my_interests" data-ui-id="checkbox-my-interests-label"><span>My Interests</span></label>
+ <div class="admin__field-control control"><div class="nested"><div class="amorderattr_img_checkbox" style="display: inline-block; padding-right: 4px;"><div class="field choice admin__field admin__field-option"><input id="my_interests_5811" type="checkbox" class="admin__control-checkbox  required-entry _required" name="my_interests[]" checked="checked" value="5811" aria-required="true"> <label for="my_interests_5811" class="admin__field-label"><span>Vegan Lifestyle</span></label></div>
+</div><div class="amorderattr_img_checkbox" style="display: inline-block; padding-right: 4px;"><div class="field choice admin__field admin__field-option"><input id="my_interests_5812" type="checkbox" class="admin__control-checkbox  required-entry _required" name="my_interests[]" checked="checked" value="5812" aria-required="true"> <label for="my_interests_5812" class="admin__field-label"><span>Zero Waste Living</span></label></div>
+</div><div class="amorderattr_img_checkbox" style="display: inline-block; padding-right: 4px;"><div class="field choice admin__field admin__field-option"><input id="my_interests_5813" type="checkbox" class="admin__control-checkbox  required-entry _required" name="my_interests[]" value="5813" aria-required="true"> <label for="my_interests_5813" class="admin__field-label"><span>Toxic Free Products</span></label></div>
+</div><div class="amorderattr_img_checkbox" style="display: inline-block; padding-right: 4px;"><div class="field choice admin__field admin__field-option"><input id="my_interests_5814" type="checkbox" class="admin__control-checkbox  required-entry _required" name="my_interests[]" value="5814" aria-required="true"> <label for="my_interests_5814" class="admin__field-label"><span>Low Carbon Lifestyle</span></label></div>
+</div><div class="amorderattr_img_checkbox" style="display: inline-block; padding-right: 4px;"><div class="field choice admin__field admin__field-option"><input id="my_interests_5815" type="checkbox" class="admin__control-checkbox  required-entry _required" name="my_interests[]" value="5815" aria-required="true"> <label for="my_interests_5815" class="admin__field-label"><span>Getting Started - Sustainable Newbie</span></label></div>
+</div></div> </div> </div>       </fieldset><div class="actions-toolbar"><div class="primary"><button type="submit" class="action save primary primary-btn" title="Save changes"><span>Save changes</span></button></div><!-- <div class="secondary"><a class="action back" href="https://tera03.digitalmara.com/"><span>Go back</span></a></div> --></div></form>    <div class="entry-edit form-inline">       </div></div>
