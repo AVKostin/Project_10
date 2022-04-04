@@ -1,0 +1,1 @@
+/var/www/html/app/code/Magezon/Builder/view/frontend/web/js/magezon-builder.js

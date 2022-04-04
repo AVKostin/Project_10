@@ -1,0 +1,1 @@
+/var/www/html/app/code/Magezon/Builder/view/base/web/js/waypoints/jquery.waypoints.js

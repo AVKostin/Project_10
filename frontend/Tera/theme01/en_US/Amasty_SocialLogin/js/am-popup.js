@@ -1,0 +1,1 @@
+/var/www/html/app/design/frontend/Tera/theme01/Amasty_SocialLogin/web/js/am-popup.js

@@ -1,0 +1,1 @@
+/var/www/html/vendor/amasty/mega-menu/view/frontend/web/js/ammage-tabs.js

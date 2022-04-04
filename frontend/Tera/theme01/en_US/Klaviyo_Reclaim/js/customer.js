@@ -1,0 +1,1 @@
+/var/www/html/vendor/klaviyo/magento2-extension/view/frontend/web/js/customer.js

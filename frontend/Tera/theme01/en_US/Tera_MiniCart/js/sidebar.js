@@ -1,0 +1,1 @@
+/var/www/html/app/code/Tera/MiniCart/view/frontend/web/js/sidebar.js

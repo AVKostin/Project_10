@@ -1,0 +1,1 @@
+/var/www/html/vendor/amasty/module-fpc-warmer/view/frontend/web/js/track.js

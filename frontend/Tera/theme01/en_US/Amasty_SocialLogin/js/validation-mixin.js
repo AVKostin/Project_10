@@ -1,0 +1,1 @@
+/var/www/html/vendor/amasty/social-login/view/frontend/web/js/validation-mixin.js

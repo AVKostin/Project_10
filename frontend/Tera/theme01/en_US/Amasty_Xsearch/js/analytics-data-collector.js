@@ -1,0 +1,1 @@
+/var/www/html/vendor/amasty/xsearch/view/frontend/web/js/analytics-data-collector.js

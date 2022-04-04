@@ -1,0 +1,1 @@
+/var/www/html/vendor/amasty/module-customer-attributes/view/frontend/web/js/view/relation.js

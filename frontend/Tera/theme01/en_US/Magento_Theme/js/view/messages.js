@@ -1,0 +1,1 @@
+/var/www/html/app/design/frontend/Tera/blank_child/Magento_Theme/web/js/view/messages.js

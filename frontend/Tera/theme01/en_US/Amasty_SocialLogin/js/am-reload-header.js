@@ -1,0 +1,1 @@
+/var/www/html/app/design/frontend/Tera/blank_child/Amasty_SocialLogin/web/js/am-reload-header.js

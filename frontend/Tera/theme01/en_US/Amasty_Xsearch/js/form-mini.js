@@ -1,0 +1,1 @@
+/var/www/html/app/design/frontend/Tera/theme01/Amasty_Xsearch/web/js/form-mini.js

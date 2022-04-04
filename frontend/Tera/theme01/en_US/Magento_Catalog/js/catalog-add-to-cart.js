@@ -1,0 +1,1 @@
+/var/www/html/app/design/frontend/Tera/blank_child/Magento_Catalog/web/js/catalog-add-to-cart.js

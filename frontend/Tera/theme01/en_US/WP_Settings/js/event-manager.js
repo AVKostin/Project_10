@@ -1,0 +1,1 @@
+/var/www/html/app/code/WP/Settings/view/base/web/js/event-manager.js

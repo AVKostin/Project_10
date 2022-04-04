@@ -1,0 +1,612 @@
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+.customer-address-index .page-title-wrapper {
+  display: none;
+}
+.new-form-background .modal-inner-wrap {
+  padding: 48px;
+}
+.new-form-background .modal-inner-wrap .contact-data.line-fields {
+  align-items: normal;
+}
+#region_id option {
+  color: #022048;
+}
+.customer-address-index .modal-popup.confirm .modal-inner-wrap {
+  max-width: 63rem;
+  padding: 48px 48px 0 48px;
+}
+.background-layout {
+  display: flex;
+  background: rgba(0, 0, 0, 0.35) !important;
+  width: 100% !important;
+  height: 100% !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 998;
+  align-items: center;
+  justify-content: center;
+}
+.background-layout .confirmation-modal {
+  border-radius: 8px;
+  z-index: 999;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  background: #ffffff;
+  width: 615px;
+  max-height: 80%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 48px;
+}
+.background-layout .confirmation-modal .confirmation-modal-header .close-modal {
+  float: right;
+}
+.background-layout .confirmation-modal .confirmation-modal-header .close-modal > svg {
+  cursor: pointer;
+}
+.background-layout .confirmation-modal .are-you-sure {
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.background-layout .confirmation-modal .modal-confirmation-remove,
+.background-layout .confirmation-modal .modal-confirmation-remove-approve {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 700;
+}
+.background-layout .confirmation-modal .confirmation-modal-address-alert {
+  background: rgba(221, 36, 36, 0.1);
+  border-radius: 4px;
+  padding: 8px 8px 8px 0;
+  font-size: 14px /* 14/16 */;
+  font-weight: 500;
+  line-height: 18px /* 18/16 */;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+}
+.background-layout .confirmation-modal .confirmation-modal-address-alert .confirmation-modal-alert-icon {
+  padding: 11px;
+}
+.background-layout .confirmation-modal .confirmation-modal-address-alert .confirmation-modal-address-alert-message {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+.background-layout .confirmation-modal .confirmation-modal-address .modal-address {
+  margin-top: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 24px;
+  font-size: 16px;
+  line-height: 20px;
+  word-break: break-word;
+}
+.background-layout .confirmation-modal .confirmation-modal-address .modal-address > span {
+  font-size: 16px;
+  line-height: 20px;
+  word-break: break-word;
+}
+.background-layout .confirmation-modal .confirmation-modal-address .modal-address .address-header {
+  font-weight: bold;
+}
+.background-layout .confirmation-modal .confirmation-modal-address .modal-address .address-header .first-name,
+.background-layout .confirmation-modal .confirmation-modal-address .modal-address .address-header .last-name {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+.background-layout .confirmation-modal .confirmation-modal-footer {
+  float: right;
+  margin-top: 24px;
+}
+.background-layout .confirmation-modal .confirmation-modal-footer .action-dismiss,
+.background-layout .confirmation-modal .confirmation-modal-footer:hover {
+  background: #ffffff;
+}
+.background-layout .confirmation-modal .confirmation-modal-footer .action-dismiss > span,
+.background-layout .confirmation-modal .confirmation-modal-footer:hover > span {
+  color: #022048;
+}
+.background-layout .confirmation-modal .confirmation-modal-footer .action-dismiss {
+  margin-right: 21px;
+  border: 1.25px solid #022048;
+}
+.background-layout .confirmation-modal .confirmation-modal-footer .choose-different:hover > span,
+.background-layout .confirmation-modal .confirmation-modal-footer .remove-button:hover > span {
+  color: #ffffff;
+}
+.background-layout .confirmation-modal .confirmation-modal-footer .choose-different:hover,
+.background-layout .confirmation-modal .confirmation-modal-footer .remove-button:hover {
+  background: #022048;
+}
+.background-layout .confirmation-modal .confirmation-modal-footer > button {
+  padding: 12px 32px;
+  border-radius: 4px;
+}
+.background-layout .confirmation-modal .confirmation-modal-footer > button > span {
+  font-size: 17px;
+  line-height: 24px;
+}
+.new-form-background .modal-inner-wrap {
+  border-radius: 8px;
+  z-index: 999;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  background: #ffffff;
+  max-width: 615px;
+  max-height: 80%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.new-form-background .modal-inner-wrap .required-field-failed-message {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  height: 34px;
+  width: 100%;
+  background: rgba(221, 36, 36, 0.1);
+  border-radius: 4px;
+  margin: 24px 0;
+}
+.new-form-background .modal-inner-wrap .required-field-failed-message > span {
+  font-size: 14px /* 14/16 */;
+  padding-left: 13px /* 13/16 */;
+}
+.new-form-background .modal-inner-wrap .customer-address-edit-form input:focus,
+.new-form-background .modal-inner-wrap .customer-address-edit-form select:focus {
+  background: rgba(89, 183, 177, 0.05);
+  border: 1px solid #59b7b1;
+}
+.new-form-background .modal-inner-wrap .customer-address-edit-form div.mage-error {
+  display: none !important;
+}
+.new-form-background .modal-inner-wrap .customer-address-edit-form .label:after {
+  content: "";
+  display: none;
+}
+.new-form-background .modal-inner-wrap .customer-address-edit-form .invalid {
+  background: rgba(243, 115, 98, 0.05);
+  border: 1px solid #f37362 !important;
+}
+.new-form-background .modal-inner-wrap .customer-address-edit-form .invalid::placeholder {
+  color: #f37362;
+}
+.new-form-background .modal-inner-wrap .customer-address-edit-form .invalid-phone-alert {
+  background: rgba(243, 115, 98, 0.05);
+}
+.new-form-background .modal-inner-wrap .customer-address-edit-form .location {
+  margin-bottom: 0;
+}
+.new-form-background .modal-inner-wrap .customer-address-edit-form .choice.shipping {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.new-form-background .modal-inner-wrap .customer-address-edit-form .choice.shipping > * {
+  margin: 0;
+}
+.new-form-background .modal-inner-wrap .customer-address-edit-form .choice.shipping > .label span {
+  font-size: 16px /* 16/16 */;
+  padding-left: 7px /* 7/16 */;
+  line-height: 20px /* 20/16 */;
+}
+.new-form-background .modal-inner-wrap .customer-address-edit-form .choice.shipping .checkbox-wrap {
+  height: 24px /* 24/16 */;
+  width: 24px /* 24/16 */;
+}
+.new-form-background .modal-inner-wrap .customer-address-edit-form .choice.shipping .checkbox-wrap input {
+  height: 18px /* 18/16 */;
+  width: 18px /* 18/16 */;
+  background: #dadada;
+}
+.new-form-background .modal-inner-wrap .close-button {
+  display: flex;
+  justify-content: flex-end;
+}
+.new-form-background .modal-inner-wrap .close-button svg {
+  cursor: pointer;
+}
+.new-form-background .modal-inner-wrap fieldset {
+  margin-bottom: 0;
+}
+.new-form-background .modal-inner-wrap .label {
+  text-align: left !important;
+  margin: 5px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px /* 14/16 */;
+  line-height: 18px /* 18/16 */;
+  width: 100% !important;
+}
+.new-form-background .modal-inner-wrap .field {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 20px;
+}
+.new-form-background .modal-inner-wrap .field .control {
+  width: 100% !important;
+}
+.new-form-background .modal-inner-wrap .field .control > select,
+.new-form-background .modal-inner-wrap .field .control input {
+  padding: 13px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 48px;
+  font-size: 17px /* 17/16 */;
+  line-height: 24px /* 24/16 */;
+}
+.new-form-background .modal-inner-wrap .line-fields {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 20px;
+  width: 100%;
+}
+.new-form-background .modal-inner-wrap .line-fields .field {
+  width: 48%;
+}
+.new-form-background .modal-inner-wrap #group-fields-customer-attributes {
+  display: none;
+}
+.new-form-background .modal-inner-wrap .actions-toolbar {
+  display: flex;
+  justify-content: flex-end;
+}
+.new-form-background .modal-inner-wrap .actions-toolbar .add-address-btn {
+  margin-right: 0;
+  margin-left: 20px;
+}
+.new-form-background .modal-inner-wrap .actions-toolbar .add-address-btn > button {
+  background: #022048;
+  color: #ffffff;
+  border: 0;
+  font-family: "Violet Sans";
+  font-weight: 500;
+  font-size: 17px /* 17/16 */;
+  line-height: 24px /* 24/16 */;
+  padding: 12px 32px;
+}
+.new-form-background .modal-inner-wrap .actions-toolbar .cancel-btn > button {
+  background: #ffffff;
+  color: #022048;
+  border: 1.25px solid #022048;
+  font-family: "Violet Sans";
+  font-weight: 500;
+  font-size: 17px /* 17/16 */;
+  line-height: 24px /* 24/16 */;
+  padding: 12px 32px;
+}
+.new-form-background .modal-inner-wrap .telephone .control {
+  position: relative;
+}
+.new-form-background .modal-inner-wrap .telephone .control .tooltip {
+  position: absolute !important;
+  right: 10px;
+  top: 18px;
+  position: relative;
+}
+.new-form-background .modal-inner-wrap .telephone .control .tooltip .tooltip-content {
+  background: #ffffff;
+  max-width: 360px;
+  min-width: 210px;
+  padding: 12px 16px;
+  z-index: 100;
+  display: none;
+  position: absolute;
+  text-align: left;
+  color: #022048;
+  line-height: 1.4;
+  border: 1px solid #bbbbbb;
+  margin-bottom: 5px;
+  bottom: 100%;
+  left: 0;
+}
+.new-form-background .modal-inner-wrap .telephone .control .tooltip .tooltip-content:after,
+.new-form-background .modal-inner-wrap .telephone .control .tooltip .tooltip-content:before {
+  border: solid transparent;
+  content: '';
+  height: 0;
+  position: absolute;
+  width: 0;
+}
+.new-form-background .modal-inner-wrap .telephone .control .tooltip .tooltip-content:after {
+  border-width: 5px;
+  border-color: transparent;
+}
+.new-form-background .modal-inner-wrap .telephone .control .tooltip .tooltip-content:before {
+  border-width: 6px;
+  border-color: transparent;
+}
+.new-form-background .modal-inner-wrap .telephone .control .tooltip .tooltip-content:after,
+.new-form-background .modal-inner-wrap .telephone .control .tooltip .tooltip-content:before {
+  top: 100%;
+}
+.new-form-background .modal-inner-wrap .telephone .control .tooltip .tooltip-content:after {
+  border-top-color: #ffffff;
+  left: 15px;
+  margin-left: -5px;
+}
+.new-form-background .modal-inner-wrap .telephone .control .tooltip .tooltip-content:before {
+  border-top-color: #bbbbbb;
+  left: 15px;
+  margin-left: -6px;
+}
+.new-form-background .modal-inner-wrap .telephone .control .tooltip .tooltip-toggle {
+  cursor: help;
+}
+.new-form-background .modal-inner-wrap .telephone .control .tooltip .tooltip-toggle:hover + .tooltip-content,
+.new-form-background .modal-inner-wrap .telephone .control .tooltip .tooltip-toggle:focus + .tooltip-content,
+.new-form-background .modal-inner-wrap .telephone .control .tooltip:hover .tooltip-content {
+  display: block;
+}
+.new-form-background .modal-inner-wrap .telephone .control .tooltip:hover .tooltip-content,
+.new-form-background .modal-inner-wrap .telephone .control .tooltip:focus .tooltip-content {
+  display: flex !important;
+}
+.new-form-background .modal-inner-wrap .telephone .control .tooltip:hover .tooltip-content:before,
+.new-form-background .modal-inner-wrap .telephone .control .tooltip:focus .tooltip-content:before {
+  display: none;
+}
+.new-form-background .modal-inner-wrap .telephone .control .tooltip:hover .tooltip-content {
+  width: 192px !important;
+  height: 90px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 0;
+  border: 0;
+  top: -100px !important;
+  position: absolute;
+  left: -101px !important;
+  background-color: rgba(0, 0, 0, 0);
+}
+.new-form-background .modal-inner-wrap .telephone .control .tooltip:hover .tooltip-content:hover,
+.new-form-background .modal-inner-wrap .telephone .control .tooltip:hover .tooltip-content:focus {
+  display: flex !important;
+}
+.new-form-background .modal-inner-wrap .telephone .control .tooltip:hover .tooltip-content .tooltip-inner-content {
+  position: relative;
+  right: 60px;
+  padding: 16px !important;
+  width: 100%;
+  height: 66px;
+  background-color: black !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  border-radius: 4px;
+}
+.new-form-background .modal-inner-wrap .telephone .control .tooltip:hover .tooltip-content .tooltip-arrow svg {
+  height: 12px;
+}
+.new-form-background .modal-inner-wrap .modal-remove-confirmation,
+.new-form-background .modal-inner-wrap .address-title {
+  font-size: 32px;
+  line-height: 38px /* 38/16 */;
+  font-weight: bold;
+}
+.new-form-background .modal-inner-wrap .modal-remove-additional-confirmation {
+  margin-top: 16px;
+  font-size: 18px /* 18/16 */;
+  line-height: 24px /* 24/16 */;
+  color: rgba(0, 0, 0, 0.8);
+}
+.new-form-background .modal-inner-wrap .modal-header,
+.new-form-background .modal-inner-wrap .modal-footer {
+  border: none;
+}
+.new-form-background .modal-inner-wrap .modal-header .action-close {
+  position: absolute;
+  top: 10%;
+  right: 2%;
+}
+.new-form-background .modal-inner-wrap .modal-header .action-close::before {
+  color: #000000;
+  font-size: 42px /* 42/16 */;
+  line-height: 42px /* 42/16 */;
+}
+.new-form-background .modal-inner-wrap .modal-footer {
+  padding-right: 0;
+}
+.new-form-background .modal-inner-wrap .modal-footer > button {
+  border-radius: 4px;
+  padding: 12px 24px;
+}
+.new-form-background .modal-inner-wrap .modal-footer > button > span {
+  font-size: 17px /* 17/16 */;
+  line-height: 24px /* 24/16 */;
+}
+.new-form-background .modal-inner-wrap .modal-address {
+  margin-top: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 24px;
+  font-size: 16px;
+  line-height: 20px;
+  word-break: break-word;
+}
+.new-form-background .modal-inner-wrap .modal-address > span {
+  font-size: 16px;
+  line-height: 20px;
+  word-break: break-word;
+}
+.new-form-background .modal-inner-wrap .modal-address .address-header {
+  font-weight: bold;
+}
+.new-form-background .modal-inner-wrap .modal-address .address-header .first-name,
+.new-form-background .modal-inner-wrap .modal-address .address-header .last-name {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+.modal-address-alert {
+  background: rgba(221, 36, 36, 0.1);
+  border-radius: 4px;
+  padding: 8px 8px 8px 0;
+  font-size: 14px /* 14/16 */;
+  font-weight: 500;
+  line-height: 18px /* 18/16 */;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+}
+.modal-address-alert .alert-icon {
+  padding: 11px;
+}
+.modal-address-alert .modal-address-alert-message {
+  font-size: 14px /* 14/16 */;
+  font-weight: 500;
+  line-height: 18px /* 18/16 */;
+}
+.customer-address-index .messages {
+  display: none;
+}
+.changes,
+.subscription-notification {
+  display: none;
+}
+.notification {
+  background: #323232;
+  color: #ffffff;
+  text-align: center;
+  position: fixed;
+  left: 40px;
+  bottom: 40px;
+  padding: 25px;
+  border-radius: 8px;
+  align-items: center;
+  z-index: 999;
+}
+.notification .notification-message {
+  margin-right: 36px;
+}
+.notification .notification-message > span {
+  font-size: 18px /* 18/16 */;
+  line-height: 24px /* 24/16 */;
+  font-weight: 400;
+}
+.notification .close-button {
+  height: 18px;
+  cursor: pointer;
+}
+a:visited,
+.alink:visited {
+  color: #022048;
+}
+@font-face {
+  font-family: 'Violet Sans';
+  src: url('../fonts/VioletSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Tenor Sans';
+  src: url('../fonts/TenorSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.page-print .logo {
+  display: block;
+  float: none;
+  text-align: left;
+}
+@media print {
+  * {
+    -webkit-filter: none !important;
+    background: transparent !important;
+    color: #000000 !important;
+    filter: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline !important;
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  .table-wrapper table {
+    width: 100%;
+    table-layout: fixed;
+  }
+  .table-wrapper table td {
+    width: auto;
+  }
+  .table-wrapper table > tfoot > tr:first-child {
+    border-top: 1px solid #999999;
+  }
+  .box,
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  @page {
+    margin: 1cm;
+  }
+  .block-content,
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  .block-content {
+    page-break-before: avoid;
+  }
+  .block-title,
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+  .nav-toggle {
+    display: none !important;
+  }
+  .sidebar,
+  .nav-sections,
+  .header.content > *[class],
+  .panel.wrapper > *[class],
+  .footer.content > *[class] {
+    display: none;
+  }
+  .logo,
+  .footer .copyright {
+    display: block !important;
+    margin: 10px 0;
+  }
+  .order-details-items .order-items .order-gift-message:not(.expanded-content) {
+    height: auto;
+    visibility: visible;
+  }
+  .column.main {
+    float: none !important;
+    width: 100% !important;
+  }
+  .breadcrumbs {
+    margin: 0 auto;
+    text-align: right;
+  }
+  .footer.content {
+    padding: 0;
+  }
+  .hidden-print {
+    display: none !important;
+  }
+}

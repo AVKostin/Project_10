@@ -1,0 +1,1 @@
+/var/www/html/app/code/WP/Customer/view/frontend/web/js/view/verify-email-notification.js
