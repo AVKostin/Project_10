@@ -2,11 +2,11 @@
   "name": "Project_11",
   "version": "1.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "",
   "homepage": "https://avkostin.github.io/Project_11/",
   "scripts": {
-    "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Project_11/"
+    "dev": "parcel *.html",
+    "build": "parcel *.html --public-url /Project_11/"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,6 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
-
+    "jquery": "^3.6.0"
   }
 }
